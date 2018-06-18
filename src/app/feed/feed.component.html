@@ -1,0 +1,15 @@
+<h1>Feed</h1>
+
+<ul>
+  <li *ngFor="let feed of feed$">
+    <p class="legal">{{feed.legal}}</p>
+    <a class="position" routerLink="/details/{{feed.id}}">{{ feed.position }}</a>
+    
+    <ul>
+      <li class="company">{{ feed.company }}</li>
+      <li class="tags">{{feed.tags}}</li>
+      <li ><a href="{{ feed.url }}">{{feed.url}}</a></li>
+    </ul>
+   
+  </li>
+</ul>

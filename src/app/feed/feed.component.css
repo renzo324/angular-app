@@ -1,0 +1,23 @@
+h1{
+	font-size: 2.2em;
+	font-family: 'Ubuntu', serif;
+	font-weight: 700;
+}
+.box{
+	border: solid 1px black;
+}
+.legal{
+	display: none;
+}
+.position{
+	font-family: 'Ubuntu', serif;
+	font-weight: 400;
+}
+.tags{
+	font-family: 'Ubuntu', serif;
+	font-weight: 400;
+}
+.company{
+	font-family: 'Ubuntu', serif;
+	font-weight: 400;
+}
